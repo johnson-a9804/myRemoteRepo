@@ -18,7 +18,7 @@ public class myAppTester {
 	  System.out.println();
 
 	  // add a line below to call your myTestMethod from here  then remove the block comment symbols  
-
+	  myTestMethod(n);
 	}
 	
 	//This is a method to reverse the number by recursion
@@ -36,12 +36,14 @@ public class myAppTester {
 
 	   /* 
 	       add your test method in this space then remove the block comment symbols
-	       public static void myTestMethod(...){
+	   */
+	       public static void myTestMethod(int n){
 
-            
+	    	   int result = n * n;
+	    	   System.out.println("The square of " + n + " is " + result);
 
 		   }
 	 
-	   */
+	   
 
 }
